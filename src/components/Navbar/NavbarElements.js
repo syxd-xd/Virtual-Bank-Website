@@ -54,6 +54,7 @@ right: 0;
 transform: translate(-100%,60%);
 font-size: 1.8rem;
 cursor: pointer;
+ color: #fff; 
 }
 `
 
@@ -109,11 +110,11 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 
-    &:hover{
-    transition
-    color: : all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
-    }
+    &:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #010606;
+}
+
 
     `;
